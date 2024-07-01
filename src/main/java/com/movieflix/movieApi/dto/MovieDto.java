@@ -23,8 +23,6 @@ public class MovieDto {
 
     private Set<String> movieCast;
     private Integer releaseYear;
-    @NotBlank(message = "Please provide movie's release poster!")
     private String poster;
-    @NotBlank(message = "Please provide movie's release posterUrl!")
     private String posterUrl;
 }
